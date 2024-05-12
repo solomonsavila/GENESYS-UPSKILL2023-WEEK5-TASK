@@ -14,22 +14,29 @@ box-sizing: border-box;
 .header{
     height: 150px;
     width:1200px;
-
 }
 
 .mini-header{
     height: 50px;
-    /* background-color: black; */
     display:flex;
 }
 
 .mailNotification{
+    display: flex;
     margin: auto;
 }
 .imgMail{
-    height: 30px;
-    width: 30px;
-    margin: auto;
+    height: 20px;
+    width: 20px;
+    margin: 10px 20px;
+    display: flex;  
+}
+
+.mailNotification p{
+    height: 20px;
+    width: 20px;
+    margin: 15px 0px 10px -7px;
+    display: flex;  
 }
 
 .sunnyNotification{
@@ -42,7 +49,6 @@ box-sizing: border-box;
     width: 40%;
     padding-top: 20px;
     margin-left: 250px;
- 
 }
 
 .fa-brands.fa-facebook{
@@ -63,10 +69,7 @@ box-sizing: border-box;
 .main-header{
     height: 100px;
     width: 1200px;
-    display: grid;
-    grid-template-columns: 2fr 4fr 1fr;
-    position: sticky;
-    top:0;
+    display: flex;
 }
 
 .txtVilla{
@@ -80,8 +83,32 @@ box-sizing: border-box;
 }
 
 .DDtime{
-    margin:auto;
+    height: 40px;
     margin-left:-50px;
+    display: flex;
+}
+.button1-Datetime{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width:180px;
+    border-radius: 25px;
+    color:white;
+    font-size: 14px;
+    margin: 35px 20px 35px -45px;
+    padding: 5px 0px 4px 12px;
+    display: flex;
+}
+
+.calendar-icon{
+    height: 30px;
+    width: 30px;
+    color:white;
+    background-color:rgb(218, 82, 3);
+    margin:-8px 7px 4px -15px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
 }
 .menuCollection a { 
     text-decoration: none;
@@ -102,15 +129,10 @@ box-sizing: border-box;
 }
 
 .mainSection{
-    /* margin: auto; */
     width: 1200px;
     margin: auto;
 }
 
-/* .imgLanding{
-    height: 500px;
-    width:1200px;
-} */
 .imgBanner{
     height: 750px;
     width: 1200px;
@@ -122,10 +144,6 @@ box-sizing: border-box;
     margin-top: 30px;
 }
 
-/* .imgeFeatured{
-    height: 750px;
-    width: 1200px;
-} */
 .floatFeaturedIcon{
     background: rgb(218, 82, 3);
     height: 80px;
@@ -160,7 +178,6 @@ box-sizing: border-box;
     
 }
 .info-icon{
-    /* margin-top: 30px; */
     padding: 20px;
 }
 
@@ -328,7 +345,6 @@ box-sizing: border-box;
     margin: 80px 20px;
     padding: 5px 0px 4px 12px;
     display: flex;
-    position: relative;
 }
 
 .calendar-icon{
@@ -340,7 +356,6 @@ box-sizing: border-box;
     padding: 8px;
     border-radius: 50%;
     display: flex;
-    position: relative;
 }
 .propertiesPage{
     width: 1200px;
