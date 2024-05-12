@@ -24,6 +24,7 @@ box-sizing: border-box;
 .mailNotification{
     display: flex;
     margin: auto;
+    margin-left:105px;
 }
 .imgMail{
     height: 20px;
@@ -45,24 +46,38 @@ box-sizing: border-box;
 }
 
 .topMenu{
-    height:50px;
+    display: flex;
+    height:40px;
     width: 40%;
     padding-top: 20px;
-    margin-left: 250px;
+    margin:10px 0 20px 680px;
+    /* margin-left: 250px; */
 }
 
-.fa-brands.fa-facebook{
-    margin-left: 30px;
+.fa-brands.fa-facebook.fa-2xl, .fa-brands.fa-square-twitter.fa-2xl, 
+.fa-brands.fa-square-instagram.fa-2xl, .fa-brands.fa-linkedin.fa-2xl{
+    margin-right: 35px;
+    color:rgb(67, 66, 66);
+    height: 8px;
+    width:8px;
     
 }
 
-.fa-brands.fa-twitter{
-    margin-left: 30px; 
+.fa-brands.fa-facebook.fa-2xl:hover{
+    color:rgb(218, 82, 3);
 }
 
-.fa-brands.fa-square-twitter{
-    margin-left: 30px;
-} 
+.fa-brands.fa-square-twitter.fa-2xl:hover{
+    color:rgb(218, 82, 3); 
+}
+.fa-brands.fa-square-instagram.fa-2xl:hover{
+    color:rgb(218, 82, 3); 
+}
+
+.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:rgb(218, 82, 3); 
+}
+
 .a{
     text-decoration: none;
 }
@@ -110,11 +125,14 @@ box-sizing: border-box;
     border-radius: 50%;
     display: flex;
 }
-.menuCollection a { 
+.menuCollection{
+    display: flex;
+}
+.menuCollection a{ 
     text-decoration: none;
     font-size:20px;
     margin-left:40px;
-    color:rgb(113, 60, 3);
+    color:rgb(96, 51, 3);
 }
 
 .menuCollection a:hover{
@@ -123,10 +141,13 @@ box-sizing: border-box;
     
 }
 
-.btnHome{
-    color: rgb(218, 82, 3);
-    font-size: 25px;
+.btnHome a{
+   font-size: large;
+   color:rgb(218, 82, 3);
+   font-weight: bold;
+
 }
+
 
 .mainSection{
     width: 1200px;
