@@ -1,0 +1,314 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.main{
+    height: 5000px;
+    width:1200px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.header{
+    height: 150px;
+    width:1200px;
+
+}
+
+.mini-header{
+    height: 50px;
+    /* background-color: black; */
+    display:flex;
+}
+
+.mailNotification{
+    margin: auto;
+}
+.imgMail{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+
+.sunnyNotification{
+    height:50px;
+    width: 30%;
+}
+
+.topMenu{
+    height:50px;
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 250px;
+ 
+}
+
+.fa-brands.fa-facebook{
+    margin-left: 30px;
+    
+}
+
+.fa-brands.fa-twitter{
+    margin-left: 30px; 
+}
+
+.fa-brands.fa-square-twitter{
+    margin-left: 30px;
+} 
+.a{
+    text-decoration: none;
+}
+.main-header{
+    height: 100px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    position: sticky;
+    top:0;
+}
+
+.txtVilla{
+    font-size:30px;
+    margin: auto;
+    color:rgb(19, 10, 5); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.menuCollection{
+    margin: auto;
+}
+
+.DDtime{
+    margin:auto;
+    margin-left:-50px;
+}
+.menuCollection a { 
+    text-decoration: none;
+    font-size:20px;
+    margin-left:40px;
+    color:rgb(113, 60, 3);
+}
+
+.menuCollection a:hover{
+    color:rgb(218, 82, 3);
+    cursor: pointer;
+    
+}
+
+.btnHome{
+    color: rgb(218, 82, 3);
+    font-size: 25px;
+}
+
+.mainSection{
+    /* margin: auto; */
+    width: 1200px;
+    margin: auto;
+}
+
+/* .imgLanding{
+    height: 500px;
+    width:1200px;
+} */
+.imgBanner{
+    height: 750px;
+    width: 1200px;
+}
+.features{
+    width:1200px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+/* .imgeFeatured{
+    height: 750px;
+    width: 1200px;
+} */
+.floatFeaturedIcon{
+    background: rgb(218, 82, 3);
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    position: relative;
+    margin-top:-50px;
+    margin-left:-40px;
+}
+
+.imgFeatured-icon{
+    height: 50px;
+    width: 50px;
+    margin:20px;
+}
+.featuresImg{
+    height: auto;
+    width:450px;
+}
+.featuresImg, .featured, .sideNav{
+    margin-left: 20px;
+}
+
+.sideNav{
+    height:auto;
+    width: 450px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.25) 0px 48px 100px 0px;
+    border-radius: 10px;
+    box-shadow: inset;
+    display: inline-block;
+    
+}
+.info-icon{
+    /* margin-top: 30px; */
+    padding: 20px;
+}
+
+.moreInfo{
+    margin-top: 140px;
+}
+.sitOutImg{
+    width: 1200px;
+}
+
+.imgSitOut{
+    height: 600px;
+    width:1200px;
+}
+
+.Vido-frame{
+    margin: auto;
+    position: relative;
+}
+
+.ImgVido-frame{
+    width:800px;
+    margin-top: -230px;
+    margin-left: 200px;
+    border-radius:15px;
+}
+.testimonyPage{
+    margin-top: 140px;
+    width: 1200px;
+    display: flex;
+    /* margin-left: 150px; */
+}
+
+.testimonyPage div{
+    margin-left: 150px;
+    width: 200px;
+    height: 90px;
+    color:rgb(218, 82, 3);
+    background-color: rgba(218, 82, 3,0.16);
+    border-radius: 10px;
+}
+
+.FB{
+    display:flex;
+}
+
+.blankOrganeBG{
+    height: 40px;
+    width:40px;
+    background-color:rgb(218, 82, 3);
+    border-radius: 50%;
+}
+
+.buildings{
+    display: flex;
+    font-weight: bold;
+    margin:auto;
+    padding: 12px;
+}
+.bFinished{
+    color: black;
+    display: flex;
+    margin:auto;
+    padding: 20px;
+}
+.bestDeal{
+    /* display: flex; */
+    width:1200px;
+}
+
+.subHeader-BestDeal{
+    display: flex;
+    width:1200px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.leftSide-BestDeal{
+    display: flex;
+    color:black;
+    padding: 230px 20px 20px 20px;
+    width: 400px;
+}
+
+.leftSide-BestDeal p{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.rightSide-BestDeal{
+    display: flex;
+    width: 450px;
+    margin-left: 300px;
+}
+.rightSide-BestDeal button{
+    background-color:black;
+    height: 60px;
+    width:200px;
+    border-radius: 5px;
+    color:white;
+    font-size: 20px;
+    margin-top: 270px;
+    margin-left: 20px;
+
+}
+
+.rightSide-BestDeal button:nth-of-type(1){
+    background-color:rgb(218, 82, 3);
+    color:white;
+    border-style: none;
+}
+
+.subSection-BestDeal{
+    height: 400px;
+    width: 1200px;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-subSection-BestDeal{
+    display:flex;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 48px 100px 0px rgb(160, 163, 163);
+    box-shadow:inset;
+}
+
+.center-subSection-BestDeal{
+    display:flex;
+    width: 450px;
+    height: 350px;
+}
+
+.right-subSection-BestDeal{
+    width: 300px;
+    height: 400px;
+}
+
+.button-Datetime{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width:180px;
+    border-radius: 25px;
+    color:white;
+    font-size: 14px;
+    margin: 80px 20px;
+    padding-left: 10px;
+}
