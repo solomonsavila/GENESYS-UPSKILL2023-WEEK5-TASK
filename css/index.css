@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 .main{
-    height: 5000px;
+    height: auto;
     width:1200px;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -51,7 +51,6 @@ box-sizing: border-box;
     width: 40%;
     padding-top: 20px;
     margin:10px 0 20px 680px;
-    /* margin-left: 250px; */
 }
 
 .fa-brands.fa-facebook.fa-2xl, .fa-brands.fa-square-twitter.fa-2xl, 
@@ -273,7 +272,6 @@ box-sizing: border-box;
     margin-top: -10px;
 }
 .bestDeal{
-    /* display: flex; */
     width:1200px;
 }
 
@@ -384,9 +382,40 @@ box-sizing: border-box;
 }
 
 .bestPropertySection{
-    /* width: 1200px; */
+    width: 1200px;
     height: 200px;
     text-align: center;
     font-size: 30px;
     margin:40px 40px;
+}
+
+.propertiesPrice{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    width: 1200px;
+    height: 1200px;
+}
+
+.propertiesSamples{
+    height: 530px;
+    width: 350px;
+    background-color: rgba(235, 234, 234, 0.5);
+    border-radius: 10px;
+    margin: 20px 0 -40px 0px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    /* background-color: black; */
+    color: white;
 }
