@@ -406,7 +406,7 @@ box-sizing: border-box;
 }
 
 .propertyImage{
-    height:250px;
+    height:300px;
     width:350px;
     margin: auto;
     align-items: center;
@@ -414,11 +414,51 @@ box-sizing: border-box;
 }
 
 .PropertyFrontView{
+    display: block;
     border-radius: 10px;
-    height:200px;
-    width: 300px;
-   align-content: center;
+    height:280px;
+    width: 310px;
+    margin: 15px auto;
 }
+
+.LuxuryVillaSection{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.LuxuryVillaSection, .LuxuryVilla, .amountSection{
+    display:flex;
+
+}
+
+.btnLuxuryVilla{
+    height: 25px;
+    width:90px;
+    background-color:rgb(238, 170, 131);
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.amountSection{
+    /* margin-left: 180px; */
+    color:rgb(218, 82, 3);
+}
+
+.btnModernCando{
+    height: 25px;
+    width:100px;
+    background-color:rgb(238, 170, 131);
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 20px;
+
+}
+
+
 
 
 
