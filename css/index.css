@@ -405,6 +405,21 @@ box-sizing: border-box;
     margin: 20px 0 -40px 0px;
 }
 
+.propertyImage{
+    height:250px;
+    width:350px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.PropertyFrontView{
+    border-radius: 10px;
+    height:200px;
+    width: 300px;
+   align-content: center;
+}
+
 
 
 
