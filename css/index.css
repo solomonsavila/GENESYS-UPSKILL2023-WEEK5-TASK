@@ -462,6 +462,27 @@ box-sizing: border-box;
     height: 300px;
     width: 1200px;
 }
+.bgContactUS{
+    position: relative;
+    text-align: center;
+    
+}
+
+.contactImage{
+    opacity:0.899;
+}
+
+.inTouchAgent{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:x-large;
+  }
+  .inTouchAgent p{
+    color: rgb(218, 82, 3);
+  } 
 
 .contactImage{
     height: 400px;
